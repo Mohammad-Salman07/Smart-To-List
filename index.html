@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart To-Do List</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="to-do-app">
+      <!-- Header -->
+      <div class="header">
+        <h2><img src="https://cdn-icons-png.flaticon.com/512/151/151917.png" alt="icon" class="logo"> To-Do List</h2>
+        <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+      </div>
+
+      <!-- Input Row -->
+      <div class="input-group">
+        <input type="text" id="input-box" placeholder="What needs to be done?">
+        <button onclick="addTask()" class="add-btn">➕ Add</button>
+      </div>
+
+      <!-- Task List -->
+      <ul id="list-container" class="task-list"></ul>
+
+      <!-- Footer -->
+      <div class="footer">
+        <button onclick="downloadTasks()" class="export-btn">⬇️ Export Tasks</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
