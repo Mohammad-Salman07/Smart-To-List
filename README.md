@@ -13,6 +13,9 @@ It allows you to manage tasks, switch between light/dark themes, and export your
 - Press `Enter` to quickly add tasks
 - Fully responsive design
 - 
+## Screenshot
+![Screenshot 2025-07-03 175515](https://github.com/user-attachments/assets/6f0b39d7-a094-4b7e-963b-a897f628f935)
+
 ## 🛠 Technologies
 
 - HTML5  
